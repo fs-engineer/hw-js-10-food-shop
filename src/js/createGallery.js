@@ -7,4 +7,3 @@ const menuGallery = document.querySelector('.js-menu');
 const markup = galleryTemplate(menu);
 
 menuGallery.insertAdjacentHTML('afterbegin', markup);
-console.log(markup);
