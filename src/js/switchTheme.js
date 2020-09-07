@@ -24,7 +24,6 @@ function handleSwitchTheme() {
     ref.body.classList.toggle(Theme.DARK);
     localStorage.setItem('theme', Theme.LIGHT);
   }
-  console.log(ref.switchInput.checked);
 }
 
 function handleDefaultTheme() {
